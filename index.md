@@ -11,7 +11,7 @@ Welcome to UnionCell lab.
 
 {% capture text %}
 
-Our research focuses on stem cells, extracellular vesicles, immune regulation, and their potential applications in complex disease treatment.
+Our research focuses  stem cells, extracellular vesicles, immune regulation, and their potential applications in complex disease treatment.
 
 {%
   include button.html
