@@ -5,13 +5,13 @@
 
 {% include section.html %}
 
-BLAHBLAHBLAH in index
+Welcome to UnionCell lab.
 
 ## Highlights
 
 {% capture text %}
 
-Our research ?
+Our research focuses on stem cells, extracellular vesicles, immune regulation, and their potential applications in complex disease treatment.
 
 {%
   include button.html
@@ -26,11 +26,12 @@ Our research ?
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/researchimage.jpg"
   link="research"
   title="Our Research"
   text=text
 %}
+Our projects explore innovative strategies for cell therapy, regenerative medicine, and translational biomedical research.
 
 {% capture text %}
 
@@ -49,7 +50,7 @@ Our projects
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/projectimage.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -75,7 +76,7 @@ Our Team?
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/home/teamimage.jpg"
   link="team"
   title="Our Team"
   text=text
